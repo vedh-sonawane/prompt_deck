@@ -101,6 +101,27 @@
     padding: 0 16px;
 }
 
+.auth-error {
+    color: #fca5a5;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.oauth-hint {
+    margin-top: 12px;
+    font-size: 11px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    max-width: 360px;
+}
+
+.oauth-hint code {
+    font-size: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
 .google-auth-wrapper {
     display: flex;
     justify-content: center;

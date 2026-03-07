@@ -1,0 +1,16 @@
+[
+  {
+    "id": "66b57e43e1e7e4bc",
+    "name": "john doe",
+    "email": "sonawane.vedh14@gmail.com",
+    "password_hash": "246bd9fffc2d8df783346a9d691e63d3a08d049d86a746238e7ab99e555f537e",
+    "salt": "7d3e0129634b97e5cd7eb7d66ee23a0a"
+  },
+  {
+    "id": "9d70bee535044bee",
+    "name": "vedh sonwane",
+    "email": "d@gmail.com",
+    "password_hash": "76492342f31af813c87181269c983c74aba1ce7461751dd2416e9bbbe5594d96",
+    "salt": "cb1e2bc475d05b624c41346aed04917d"
+  }
+]

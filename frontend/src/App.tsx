@@ -30,7 +30,14 @@ function MouseGlow() {
 }
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      return !!window.localStorage.getItem('promptdeck.user');
+    } catch {
+      return false;
+    }
+  });
 
   // NOTE: This Client ID should be replaced with a real one
   // Check the Readme or terminal output for instructions on how to get it.
@@ -55,7 +62,16 @@ function App() {
             path="/dashboard"
             element={
               isAuthenticated ? (
-                <Dashboard onLogout={() => setIsAuthenticated(false)} />
+                <Dashboard
+                  onLogout={() => {
+                    try {
+                      window.localStorage.removeItem('promptdeck.user');
+                    } catch {
+                      // ignore
+                    }
+                    setIsAuthenticated(false);
+                  }}
+                />
               ) : (
                 <Navigate to="/" replace />
               )
