@@ -1,10 +1,10 @@
-Slidetech — AI Presentation Generator
+PromptDeck — AI Presentation Generator
 
 Transform any idea into a stunning, professional presentation in seconds using the power of AI.
 
 🚀 Overview
-Slidetech is a full-stack AI-powered presentation generator that creates beautiful, professional Google Slides decks from a single text prompt. Simply describe what you want, and Slidetech handles everything — from generating the content and choosing the perfect color theme, to fetching real images and building the slides directly in your Google account.
-Whether you're creating a business pitch deck, a history lesson, a science report, or a quarterly review, Slidetech produces polished, visually rich presentations that rival professionally designed templates.
+PromptDeck is a full-stack AI-powered presentation generator that creates beautiful, professional Google Slides decks from a single text prompt. Simply describe what you want, and PromptDeck handles everything — from generating the content and choosing the perfect color theme, to fetching real images and building the slides directly in your Google account.
+Whether you're creating a business pitch deck, a history lesson, a science report, or a quarterly review, PromptDeck produces polished, visually rich presentations that rival professionally designed templates.
 
 ✨ Features
 
@@ -39,7 +39,7 @@ Closing — Elegant thank you / summary slide
 
 🔢 Smart Slide Count
 
-Just say "make a 30 slide presentation" and Slidetech will make exactly 30 slides
+Just say "make a 30 slide presentation" and PromptDeck will make exactly 30 slides
 If you don't specify, AI decides the appropriate length based on topic complexity
 Supports 3 to 60 slides
 
@@ -69,7 +69,7 @@ Fully responsive design
 LayerTechnologyFrontendNext.js 14, TypeScript, Tailwind CSSAnimationsFramer MotionBackendFastAPI, Python 3.11+AI ModelGroq API (LLaMA 3.3 70B Versatile)ImagesPexels APIAuthenticationNextAuth.js + Google OAuth 2.0PresentationsGoogle Slides APIFontsGoogle Fonts (dynamic per theme)Environmentpython-dotenv, .env.local
 
 📁 Project Structure
-Slidetech/
+PromptDeck/
 ├── app/                          # Next.js App Router
 │   ├── page.tsx                  # Homepage
 │   ├── layout.tsx                # Root layout with SessionProvider
@@ -105,8 +105,8 @@ A Groq API key (free at console.groq.com)
 A Pexels API key (free at pexels.com/api)
 
 1. Clone the Repository
-bashgit clone https://github.com/yourusername/slidetech.git
-cd slidetech
+bashgit clone https://github.com/yourusername/PromptDeck.git
+cd PromptDeck
 2. Install Frontend Dependencies
 bashnpm install
 3. Install Backend Dependencies
@@ -199,4 +199,4 @@ Framer Motion — Animations
 Tailwind CSS — Styling
 
 
-Built with ❤️ by Slidetech
+Built with ❤️ by PromptDeck
