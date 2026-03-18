@@ -1,6 +1,6 @@
 PromptDeck — AI Presentation Generator
 
-Transform any idea into a stunning, professional presentation in seconds using the power of AI.
+Transform any notion into a stunning, professional presentation in seconds using the power of AI.
 
 🚀 Overview
 PromptDeck is a full-stack AI-powered presentation generator that creates beautiful, professional Google Slides decks from a single text prompt. Simply describe what you want, and PromptDeck handles everything — from generating the content and choosing the perfect color theme, to fetching real images and building the slides directly in your Google account.
